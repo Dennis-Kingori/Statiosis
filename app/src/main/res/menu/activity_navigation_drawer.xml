@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Player details">
+            <menu>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_player_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_team_profile"
+            android:icon="@drawable/ic_team_profile"
+            android:title="Team profile" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Balling">
+        <menu>
+            <item
+                android:id="@+id/nav_teams"
+                android:icon="@drawable/ic_teams"
+                android:title="Teams" />
+            <item
+                android:id="@+id/nav_tournaments"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Tournaments" />
+            <item
+                android:id="@+id/nav_fixtures"
+                android:icon="@drawable/ic_fixtures"
+                android:title="fixtures"/>
+            <item
+                android:id="@+id/nav_results"
+                android:icon="@drawable/ic_results"
+                android:title="Results"/>
+        </menu>
+    </item>
+
+</menu>
